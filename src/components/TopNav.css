@@ -1,0 +1,46 @@
+.Top-Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Announcement-button{
+    display: inline-block;
+    padding: 4px 14px; 
+    background-color: #e4d7d7; 
+    color:black;
+    cursor: pointer;
+    margin: 0 32px;
+    text-decoration: none; 
+    border: none;
+    border-radius: 40px;
+}
+.Top-Nav-Text{
+    font-weight: 500;
+}
+
+/* For screens below 700px */
+@media (max-width: 699px) {
+    .Top-Nav {
+        flex-direction: row;
+        gap: 12px;
+        font-size: 10px;
+        align-items: center;
+    }
+    .Announcement-button {
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+}
+@media (max-width: 400px) {
+    .Top-Nav {
+        flex-direction: row;
+        gap: 4px;
+        font-size: 4px;
+        align-items: center;
+    }
+    .Announcement-button {
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+}
+
+

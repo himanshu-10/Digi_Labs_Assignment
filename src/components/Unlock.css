@@ -1,0 +1,82 @@
+.parentUnlock{
+    display: flex;
+    width: 1250px;
+    padding: 80px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--White, #FFF);
+}
+.childUnlock{
+    display: flex;
+    width: 1216px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.unlock-para{
+    width: 704px;
+    color: var(--Neutral-50, #121417);
+    text-align: center;
+
+    /* H400/40/SemiBold */
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    
+}
+.card-btn{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--Pri-Purple-400, #582066);
+    border: none;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* H50/16/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.card-btn:hover{
+    cursor: pointer;
+}
+.supprt-btn{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--Neutral-1200, #EEEFEF);
+    color: var(--Neutral-400, #5A6475);
+    text-align: center;
+    border: none;
+
+    /* H50/16/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.supprt-btn:hover{
+    cursor: pointer;
+}
+

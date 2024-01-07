@@ -1,0 +1,31 @@
+.parentMode{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 93px 450px;
+}
+.mode-heading{
+    width: 150px;
+height: 16px;
+fill: var(--Neutral-50, #121417);
+font-size: 30px;
+padding: 10px;
+}
+.mode-para{
+    align-self: stretch;
+    color: var(--Neutral-400, #5A6475);
+text-align: center;
+
+/* Para/Small/Medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+width: 512px;
+
+
+}

@@ -1,0 +1,62 @@
+.mainWise{
+    display: flex;
+    width: 1250px;
+    padding: 96px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    overflow-x:hidden;
+    background: var(--White, #FFF);
+    
+}
+.innerWise{
+    display: flex;
+    width: 1280px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.logo1{
+    width: 20px;
+  height: 24px;
+  margin-left: -10rem;
+}
+.parentAbout{
+    width: 75%;
+}
+.aboutWise{
+    color: var(--Neutral-100, #24282F);
+    text-align: center;
+
+    /* H300/32/Medium */
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+}
+.avra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.rating{
+    display: flex;
+    padding: 4px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
